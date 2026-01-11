@@ -1,0 +1,37 @@
+pmby-live/
+│
+├── public/
+│   └── index.html                   # Main HTML template
+│
+├── src/
+│   ├── assets/                      # Images, icons, logos
+│   │
+│   ├── components/                  # Reusable React components
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   ├── MapComponent.jsx
+│   │   ├── AlertsFeed.jsx
+│   │   ├── ReportForm.jsx
+│   │   ├── AlertPopup.jsx
+│   │   └── LegendOverlay.jsx
+│   │
+│   ├── pages/                       # Page-level components
+│   │   ├── Home.jsx
+│   │   └── AdminDashboard.jsx       # VIP/authority view (optional week 2+)
+│   │
+│   ├── services/                    # Supabase and API services
+│   │   ├── supabaseClient.js        # Supabase client initialization
+│   │   ├── alertsService.js         # CRUD + realtime updates for alerts
+│   │   └── reportsService.js        # CRUD for user reports
+│   │
+│   ├── styles/                      # Tailwind CSS custom configs (if needed)
+│   │   └── global.css
+│   │
+│   ├── App.jsx                       # Main React App
+│   ├── index.jsx                     # Entry point
+│   └── routes.jsx                    # Routing (Home/Admin)
+│
+├── package.json
+├── vite.config.js                    # Vite config
+├── tailwind.config.js                # Tailwind config
+└── README.md
